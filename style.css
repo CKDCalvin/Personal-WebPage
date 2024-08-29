@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    background: #fffcf9;
+    font-family: 'Roboto', 'Times New Roman', 'Courier New', Courier, monospace;
+    color: white;
+}
+
+nav, main{
+    text-align: center;
+}
+
+nav{
+    background-color: #A2999E;
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+.name{
+    font-weight: bold;
+    color: black;
+}
+
+h2, h3, h4, h1{
+    margin: 0;
+}
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main{
+    background-color: #26547c;
+    margin: 0;
+}
+
+.info{
+    height: 350px;
+    width: auto;
+    margin: 0px 190px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-me{
+    color: #FFFCF9;
+    font-size: 1.25rem;
+}
+
+.card-el{
+    font-family: 'Times New Roman', 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 400px;
+    margin: 0;
+    display: flex;
+    text-align:center;
+    justify-content: space-around;
+    padding: 20px;
+    border:1px solid black;
+    border-radius: 5px;
+    background: #A8DADC;
+}
+
+.img-c{
+    width: 215px;
+    height: 150px;
+    border-radius: 0px;
+    
+}
+.details{
+    display:flex;
+    flex-direction: column;
+    margin: 5px 5px;
+    color: #26547c;
+}
+
+.details p{
+    font-weight: 700;
+}
+
+.skills{
+    margin: 0px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.langu{
+    width:250px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    background: #06d6a0;
+    padding: 0px;
+    border-radius: 5px;
+}
+.langs{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.lang{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bottom-part{
+    padding-top: 20px;
+    background: #A2999E;
+    padding-bottom: 0px;
+    color: black;
+}
+
+.projects{
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px 0px;
+}
+
+.projects h2{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.projects1{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.leads-proj{
+    width: 240px;
+    height: 120px;
+    border-radius: 10px;
+    border: 5px solid #26547c;
+}
+
+.score-proj{
+    width:240px;
+    height: 120px;
+    border-radius: 10px;
+    border: 5px solid #FFFCF9;
+}
+
+.score-proj:hover, .leads-proj:hover{
+    width: 245px;
+    height: 125px;
+    border: 5px solid #06d6a0;
+}
+
+.email-img{
+    padding-top: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.linkd-img{
+    width: 110px;
+    height: 80px;
+
+}
+
+.git-img{
+    border: 1px solid #A2999E;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.email-img:hover{
+    width: 105px;
+    height: 105px;
+}
+
+.linkd-img:hover{
+    width: 115px;
+    height: 85px;
+}
+
+.git-img:hover{
+    border: 2px solid #06d6a0;
+    border-radius: 50%;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+}
+footer{
+    width: auto;
+    text-align: center;
+    background-color: #A2999E;
+}
+
+
+@media (max-width: 687px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        top: 50px;
+        position: relative;
+    }
+
+    .about-me{
+        top: 80px;
+    }
+
+    .card-el{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .img-c{
+        width:85px;
+        height: 85px;
+        border-radius: 50%;
+
+    }
+
+    .langu{
+        height: auto;
+        padding:0px;
+    }
+
+    .langs{
+        height: max-content;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .projects1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .email-img{
+        margin-right: 15px;
+    }
+
+    .linkd-img{
+        margin-left: 5px;
+        margin-top: 9px;
+    }
+    .project p{
+        margin-top:0px;
+    }
+
+    .skills{
+        margin: 120px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 708px){
+    .projects1{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
